@@ -223,6 +223,7 @@ npm run build
 
 ## Erros
 
+
 Caso não inicie na primeira instalação use opção 2 para atualizar pode ser algum arquivo não baixou corretamente
 
 "Internal server error: SequelizeConnectionError: could not open file \"global/pg_filenode.map\": Permission denied"
