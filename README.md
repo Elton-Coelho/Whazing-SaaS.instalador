@@ -88,13 +88,31 @@ sudo ./whazing
 
 Use configuração do Menu empresas para alterar nome do site e LOGOS
 
+## Alterar notificação sonora
+
+alterar arquivos na pasta
+
+```bash
+/home/deploy/whazing/frontend/src/assets
+```
+Rodar os comandos
+```bash
+su deploy
+```
+```bash
+cd /home/deploy/whazing/frontend
+```
+```bash
+npm run build
+```
+```bash
+
 ## Variáveis Sistema – tela de atendimento
 
 primeiro nome do contato
 ```bash
 {{firstName}}
 ```
-
 nome completo do contato
 ```bash
 {{name}}
@@ -142,7 +160,7 @@ e-mail do usuário
 nome do usuário
 ```bash
 {{user}}
----
+```
 
 ## Variveis Sistema - campanhas
 
@@ -155,7 +173,6 @@ nome do usuário
 ```bash
 {{email}}
 ```
-```bash
 
 ## Variveis TypeBOT
 
@@ -185,6 +202,7 @@ remoteJid
 ```
 
 ## Erros
+
 Erro Backend, não consegue logar
 reiniciar o PM2
 
@@ -200,27 +218,6 @@ pm2 restart all
 ```bash
 pm2 reload all
 ```
-
-## Alterar notificação sonora
-
-alterar arquivos na pasta
-
-```bash
-/home/deploy/whazing/frontend/src/assets
-```
-Rodar os comandos
-```bash
-su deploy
-```
-```bash
-cd /home/deploy/whazing/frontend
-```
-```bash
-npm run build
-```
-```bash
-
-
 
 ## Erros
 
