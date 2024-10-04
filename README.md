@@ -199,6 +199,28 @@ pm2 restart all
 ```bash
 pm2 reload all
 ```
+
+## Alterar notificação sonora
+
+alterar arquivos na pasta
+
+```bash
+/home/deploy/whazing/frontend/src/assets
+```
+Rodar os comandos
+```bash
+su deploy
+```
+```bash
+cd /home/deploy/whazing/frontend
+```
+```bash
+npm run build
+```
+```bash
+
+
+
 ## Erros
 
 Caso não inicie na primeira instalação use opção 2 para atualizar pode ser algum arquivo não baixou corretamente
