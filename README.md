@@ -108,12 +108,10 @@ cd /home/deploy/whazing/frontend
 ```bash
 npm run build
 ```
-```bash
 
 ## Variáveis Sistema – tela de atendimento
 
 primeiro nome do contato
-
 ```bash
 {{firstName}}
 ```
