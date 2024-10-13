@@ -31,10 +31,8 @@ Nome do usuários
 whazing
 ```
 
-```
 ## Senha Banco de dados Criada por padrão
 
-```
 ```bash
 AKwWM4Qu2GRppJ7
 ```
