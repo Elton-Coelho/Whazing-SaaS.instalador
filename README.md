@@ -91,6 +91,11 @@ sudo ./whazing
 
 Use configuração do Menu empresas para alterar nome do site e LOGOS
 
+site para gerar facicon
+```bash
+https://www.pwabuilder.com/imageGenerator
+```
+
 ## Alterar notificação sonora
 
 alterar arquivos na pasta
