@@ -72,6 +72,21 @@ cd ./whazinginstalador
 sudo ./whazing
 ```
 
+Ao Finalizar a instalação iniciar o PM2
+
+```bash
+su deploy
+```
+```bash
+pm2 stop all
+```
+```bash
+pm2 restart all
+```
+```bash
+pm2 reload all
+```
+
 ## RODAR OS COMANDOS ABAIXO PARA ATUALIZAR
 ```bash
 sudo su root
