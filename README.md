@@ -8,7 +8,7 @@
 
 
 
-Versão grátis*
+**Versão grátis**
 
 - Limites da versão grátis 
 - 10 usuários
@@ -77,6 +77,7 @@ sudo ./whazing
 ```
 
 ## RODAR OS COMANDOS ABAIXO PARA ATUALIZAR
+
 ```bash
 sudo su root
 ```
@@ -88,14 +89,10 @@ cd ./whazinginstalador
 ```
 ```bash
 sudo ./whazing
+```
 
-**Depois de Atualizar o Sistema Reiniciar a VPS**
-
-
-su deploy
-pm2 stop all
-pm2 restart all
-pm2 reload all
+**Exclua os cookies do navegador**
+Para atualizar para a nova versão
 
 ## Alterar Frontend
 
