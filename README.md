@@ -92,6 +92,7 @@ sudo ./whazing
 ```
 
 **Exclua os cookies do navegador**
+
 Para atualizar para a nova versão
 
 ## Alterar Frontend
