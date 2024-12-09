@@ -53,7 +53,7 @@ apt dist-upgrade
 reboot
 ```
  
-Depois reniciar seguir com a instalacao
+**Depois reniciar seguir com a instalacao**
 ```bash
 sudo su root
 ```
@@ -88,8 +88,20 @@ cd ./whazinginstalador
 ```
 ```bash
 sudo ./whazing
-```
 
+Depois de Atualizar o Sistema Reiniciar a VPS
+```bash
+su deploy
+```
+```bash
+pm2 stop all
+```
+```bash
+pm2 restart all
+```
+```bash
+pm2 reload all
+```
 ## Alterar Frontend
 
 Use configuração do Menu empresas para alterar nome do site e LOGOS
