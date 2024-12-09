@@ -89,19 +89,14 @@ cd ./whazinginstalador
 ```bash
 sudo ./whazing
 
-Depois de Atualizar o Sistema Reiniciar a VPS
-```bash
+**Depois de Atualizar o Sistema Reiniciar a VPS**
+
+
 su deploy
-```
-```bash
 pm2 stop all
-```
-```bash
 pm2 restart all
-```
-```bash
 pm2 reload all
-```
+
 ## Alterar Frontend
 
 Use configuração do Menu empresas para alterar nome do site e LOGOS
