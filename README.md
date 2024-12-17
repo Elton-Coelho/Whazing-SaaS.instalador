@@ -176,7 +176,9 @@ nome do usuário
 ```bash
 {{user}}
 ```
-
+```bash
+{{CPF}}
+```
 ## Variveis Sistema - campanhas
 
 ```bash
