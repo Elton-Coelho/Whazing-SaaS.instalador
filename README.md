@@ -176,6 +176,7 @@ nome do usuário
 ```bash
 {{user}}
 ```
+CPF do usuário
 ```bash
 {{CPF}}
 ```
